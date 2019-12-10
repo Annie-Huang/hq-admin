@@ -34,4 +34,9 @@ C:\Windows\system32>npm install --global --production windows-build-tools       
 C:\react\hq-admin>npm install sass --save-dev
 C:\react\hq-admin>npm install sass-loader node-sass css-loader autoprefixer postcss-loader --save-dev
 C:\react\hq-admin>npm install mini-css-extract-plugin --save-dev
+
 C:\react\hq-admin>npm install bootstrap
+npm WARN bootstrap@4.4.1 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.4.1 requires a peer of popper.js@^1.16.0 but none is installed. You must install peer dependencies yourself.
+
+C:\react\hq-admin>npm install --save jquery popper.js
