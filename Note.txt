@@ -18,3 +18,4 @@ license: (ISC)
 
 
 C:\react\hq-admin>npm install webpack --save-dev
+C:\react\hq-admin>npm install webpack-cli --save-dev

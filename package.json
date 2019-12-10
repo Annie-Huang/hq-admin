@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Annie-Huang/hq-admin#readme",
   "devDependencies": {
-    "webpack": "^4.41.2"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
