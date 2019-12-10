@@ -3,3 +3,15 @@ https://github.com/wilsmex/hq-admin
 https://github.com/Annie-Huang/hq-admin
 
 ==================================================
+
+C:\react\hq-admin>npm init
+
+package name: (hq-admin) hq-admin
+version: (1.0.0)
+description: Admin Theme
+entry point: (index.js) js/app.js
+test command:
+git repository: (https://github.com/Annie-Huang/hq-admin.git)
+keywords: admin, theme
+author: Annie Huang
+license: (ISC)
