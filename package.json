@@ -22,7 +22,12 @@
   "homepage": "https://github.com/Annie-Huang/hq-admin#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
+    "autoprefixer": "^9.7.3",
+    "css-loader": "^3.3.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
     "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
