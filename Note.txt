@@ -23,11 +23,9 @@ C:\react\hq-admin>npm install webpack-dev-server --save-dev
 C:\react\hq-admin>npm install @fortawesome/fontawesome-free --save-dev
 C:\react\hq-admin>npx webpack --config webpack.config.js            << this will not work, just create a empty file called webpack.config.js
 
-C:\react\hq-admin>npm install fibers --save-dev     << Cannot get this working. Let's see how far it can go without fibers. 9:27
+C:\react\hq-admin>npm install fibers --save-dev     << Only work if you done the following two commands.
 Seems fibers rely on Python, need to install https://github.com/nodejs/node-gyp for the above command to success.
 C:\react\hq-admin>npm install -g node-gyp
-
-
 C:\Windows\system32>npm install --global --production windows-build-tools       << open cmd.exe as admin.
 
 
