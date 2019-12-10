@@ -39,3 +39,5 @@ npm WARN bootstrap@4.4.1 requires a peer of popper.js@^1.16.0 but none is instal
 
 C:\react\hq-admin>npm install --save jquery popper.js
 C:\react\hq-admin>npm install file-loader --save-dev
+
+C:\react\hq-admin>npx webpack --config webpack.config.js
