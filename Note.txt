@@ -21,4 +21,4 @@ C:\react\hq-admin>npm install webpack --save-dev
 C:\react\hq-admin>npm install webpack-cli --save-dev
 C:\react\hq-admin>npm install webpack-dev-server --save-dev
 C:\react\hq-admin>npm install @fortawesome/fontawesome-free --save-dev
-
+C:\react\hq-admin>npx webpack --config webpack.config.js            << this will not work, just create a empty file called webpack.config.js
