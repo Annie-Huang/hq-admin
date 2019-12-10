@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Annie-Huang/hq-admin/issues"
   },
-  "homepage": "https://github.com/Annie-Huang/hq-admin#readme"
+  "homepage": "https://github.com/Annie-Huang/hq-admin#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2"
+  }
 }

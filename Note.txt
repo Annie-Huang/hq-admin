@@ -15,3 +15,6 @@ git repository: (https://github.com/Annie-Huang/hq-admin.git)
 keywords: admin, theme
 author: Annie Huang
 license: (ISC)
+
+
+C:\react\hq-admin>npm install webpack --save-dev
