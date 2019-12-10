@@ -34,3 +34,4 @@ C:\Windows\system32>npm install --global --production windows-build-tools       
 C:\react\hq-admin>npm install sass --save-dev
 C:\react\hq-admin>npm install sass-loader node-sass css-loader autoprefixer postcss-loader --save-dev
 C:\react\hq-admin>npm install mini-css-extract-plugin --save-dev
+C:\react\hq-admin>npm install bootstrap
