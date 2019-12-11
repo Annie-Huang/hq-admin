@@ -43,3 +43,6 @@ C:\react\hq-admin>npm install file-loader --save-dev
 C:\react\hq-admin>npx webpack --config webpack.config.js
 C:\react\hq-admin>node_modules\.bin\webpack-dev-server
 C:\react\hq-admin>npm run start:dev
+
+http://localhost:8080
+http://localhost:8080/forms.html
