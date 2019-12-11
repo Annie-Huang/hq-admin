@@ -41,3 +41,4 @@ C:\react\hq-admin>npm install --save jquery popper.js
 C:\react\hq-admin>npm install file-loader --save-dev
 
 C:\react\hq-admin>npx webpack --config webpack.config.js
+C:\react\hq-admin>node_modules\.bin\webpack-dev-server
