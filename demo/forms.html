@@ -53,12 +53,25 @@
                         </div>
                     </div>
                 </form>
+
             </div>
         </div>
         <div class="row">
             <div class="col-12">
 
-
+                <!-- I didn't know form-inline class exists -->
+                <form class="form-inline">
+                    <!-- pr standard for padding-right, it got pt, pb, pl, pr
+                         There is also px py stands for x-axis y-axis
+                         There is also p-sm p-md and p-lg
+                         And you can followed by a number 1-5 to see how big you want, e.g. pr-1
+                         And mx standard for margin in x-axis, same concept as padding...       -->
+                    <label class="pr-1" for="username">Username</label>
+                    <input class="form-control" type="text" name="username" id="username">
+                    <label class="px-1" for="password">Password</label>
+                    <input class="form-control" type="text" name="password" id="password">
+                    <button class="mx-1 btn btn-primary">Submit</button>
+                </form>
 
             </div>
         </div>
