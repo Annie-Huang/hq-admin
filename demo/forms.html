@@ -29,8 +29,28 @@
                 </form>
 
             </div>
-            <div class="col-md-9">
-                Second Column
+            <div class="col-md-6">
+
+                <form class="form-group row">
+                    <!-- col-form-label will make the label vertically alsign to the middle, I didn't know this class, great! -->
+                    <label class="col-sm-2 col-form-label" for="username">Username</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" name="username" id="username">
+                    </div>
+                </form>
+                <form class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="password">Password</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" name="password" id="password">
+                    </div>
+                </form>
+                <form class="form-group row">
+                    <!-- offset meaning off certain columns -->
+                    <div class="col-sm-10 offset-sm-2">
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+
             </div>
         </div>
         <div class="row">
