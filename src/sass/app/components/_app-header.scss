@@ -47,8 +47,25 @@
   cursor: pointer;
 }
 
+.app-nav {
+  // list-unstyled is a bootstrap mixins defined in _lists.scss
+  @include list-unstyled();
+  display: flex;
+  margin-bottom: 0;
+  justify-content: flex-end;
+}
 
-
+.app-nav__item {
+  display: block;
+  padding: 18px;
+  line-height: 18px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  &:hover,
+  &:focus {
+    background-color: rgba(0,0,0,.1);
+  }
+}
 
 
 

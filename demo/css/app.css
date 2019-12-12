@@ -12171,6 +12171,25 @@ readers do not read off random characters that represent icons */
   background: none;
   cursor: pointer; }
 
+.app-nav {
+  padding-left: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: flex;
+  margin-bottom: 0;
+  -webkit-box-pack: end;
+          justify-content: flex-end; }
+
+.app-nav__item {
+  display: block;
+  padding: 18px;
+  line-height: 18px;
+  color: #fff;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; }
+  .app-nav__item:hover, .app-nav__item:focus {
+    background-color: rgba(0, 0, 0, 0.1); }
+
 .app-sidebar {
   position: fixed;
   top: 0;
