@@ -12149,6 +12149,12 @@ readers do not read off random characters that represent icons */
   font-size: 26px;
   padding: 0 15px;
   line-height: 50px; }
+  @media (min-width: 768px) {
+    .app-header__logo {
+      -webkit-box-flex: 0;
+              flex: 0 0 auto;
+      display: block;
+      width: 230px; } }
 
 .app-search {
   position: relative;
@@ -12185,6 +12191,10 @@ readers do not read off random characters that represent icons */
   margin-bottom: 0;
   -webkit-box-pack: end;
           justify-content: flex-end; }
+  @media (min-width: 768px) {
+    .app-nav {
+      -webkit-box-flex: 1;
+              flex: 1 0 auto; } }
 
 .app-nav__item {
   display: block;

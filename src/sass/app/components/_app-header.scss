@@ -19,6 +19,12 @@
   font-size: 26px;
   padding: 0 15px;
   line-height: 50px;
+
+  @media (min-width: 768px) {
+    flex: 0 0 auto;
+    display: block;
+    width: 230px;
+  }
 }
 
 .app-search {
@@ -58,6 +64,10 @@
   display: flex;
   margin-bottom: 0;
   justify-content: flex-end;
+
+  @media (min-width: 768px) {
+    flex: 1 0 auto;
+  }
 }
 
 .app-nav__item {
