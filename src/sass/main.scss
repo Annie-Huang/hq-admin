@@ -9,7 +9,7 @@
 
 // Bootstrap
 @import "_vars.scss";
-@import "_customize-bootstrap.scss";
+@import "_customize-bootstrap.scss"; // this need to be in front of ~bootstrap/scss/bootstrap in order to be able to override it.
 @import "~bootstrap/scss/bootstrap";
 
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
