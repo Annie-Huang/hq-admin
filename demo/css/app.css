@@ -12163,3 +12163,29 @@ readers do not read off random characters that represent icons */
   background: none;
   cursor: pointer; }
 
+.app-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 70px;
+  width: 230px;
+  overflow: auto;
+  z-index: 10;
+  background-color: #2a4f69;
+  box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2); }
+
+.app-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.app-menu__item {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 12px 15px;
+  border-left: 2px solid transparent; }
+
