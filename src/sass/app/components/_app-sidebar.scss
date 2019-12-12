@@ -9,6 +9,10 @@
   z-index: 10;
   background-color: $sidebar-color;
   box-shadow: 0 8px 17px rgba(0,0,0,.2);
+
+  @media (max-width: 767px) {
+    left: -230px;
+  }
 }
 
 .app-menu {

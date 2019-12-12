@@ -12123,6 +12123,9 @@ readers do not read off random characters that represent icons */
   padding: 30px;
   background-color: #e5e5e5;
   margin-left: 230px; }
+  @media (max-width: 767px) {
+    .app-content {
+      margin-left: 0; } }
 
 .app-header {
   position: fixed;
@@ -12153,6 +12156,9 @@ readers do not read off random characters that represent icons */
   display: flex;
   align-self: center;
   margin-right: 15px; }
+  @media (max-width: 480px) {
+    .app-search {
+      display: none; } }
 
 .app-search__input {
   border: 0;
@@ -12201,6 +12207,9 @@ readers do not read off random characters that represent icons */
   z-index: 10;
   background-color: #2a4f69;
   box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2); }
+  @media (max-width: 767px) {
+    .app-sidebar {
+      left: -230px; } }
 
 .app-menu {
   list-style: none;
