@@ -1,0 +1,9 @@
+.app-content {
+  outline: 1px solid red;
+  min-height: calc(100vh - 50px);
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #e5e5e5;
+  margin-left: 230px; // This is because .app-sidebar has width of 230px
+}
+
