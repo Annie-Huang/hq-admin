@@ -4,7 +4,10 @@ https://github.com/Annie-Huang/hq-admin
 
 https://getbootstrap.com/docs/4.4/components/forms/
 https://getbootstrap.com/docs/4.4/content/tables/
-
+https://getbootstrap.com/docs/4.4/components/card/
+https://getbootstrap.com/docs/4.4/components/buttons/
+https://getbootstrap.com/docs/4.4/components/alerts/
+https://getbootstrap.com/docs/4.4/components/modal/
 ==================================================
 
 C:\react\hq-admin>npm init
@@ -49,3 +52,4 @@ C:\react\hq-admin>npm run start:dev
 
 http://localhost:8080
 http://localhost:8080/forms.html
+http://localhost:8080/cards.html
