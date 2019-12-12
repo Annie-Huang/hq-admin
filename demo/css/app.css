@@ -12116,3 +12116,50 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
 
+.app-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  background-color: #00A0FF;
+  z-index: 1050;
+  padding-right: 15px; }
+
+.app-header__logo {
+  /* Three values: flex-grow | flex-shrink | flex-basis */
+  -webkit-box-flex: 1;
+          flex: 1 0 auto;
+  color: #fff;
+  font-family: "Times";
+  text-align: center;
+  font-size: 26px;
+  padding: 0 15px;
+  line-height: 50px; }
+
+.app-search {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  align-self: center;
+  margin-right: 15px; }
+
+.app-search__input {
+  border: 0;
+  padding: 5px 10px;
+  padding-right: 30px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.8); }
+
+.app-search__button {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  padding: 0 10px;
+  border: 0;
+  color: rgba(0, 0, 0, 0.8);
+  background: none;
+  cursor: pointer; }
+
