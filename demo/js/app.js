@@ -499,7 +499,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/* WEBPACK VAR INJECTION */(function($) {(function () {\r\n    'use strict';\r\n\r\n    $('[data-toggle=\"sidebar\"]').click(function (event) {\r\n        // console.log('sidebar toggle was clicked');\r\n        event.preventDefault();\r\n        $('.app').toggleClass('sidebar-toggle');\r\n    });\r\n\r\n})();\r\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./src/js/custom.js?");
+eval("/* WEBPACK VAR INJECTION */(function($) {(function () {\r\n    'use strict';\r\n\r\n    $('[data-toggle=\"sidebar\"]').click(function (event) {\r\n        // console.log('sidebar toggle was clicked');\r\n        event.preventDefault();\r\n        $('.app').toggleClass('sidebar-toggled');\r\n    });\r\n\r\n})();\r\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./src/js/custom.js?");
 
 /***/ }),
 

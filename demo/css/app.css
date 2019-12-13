@@ -12258,3 +12258,6 @@ readers do not read off random characters that represent icons */
   padding: 12px 15px;
   border-left: 2px solid transparent; }
 
+.app.sidebar-toggled .app-sidebar {
+  left: 0; }
+

@@ -34,3 +34,7 @@
   // I don't know the purpose of the below
   border-left: 2px solid transparent;
 }
+
+.app.sidebar-toggled .app-sidebar{
+  left: 0;
+}
