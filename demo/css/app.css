@@ -12208,6 +12208,25 @@ readers do not read off random characters that represent icons */
   .app-nav__item:hover, .app-nav__item:focus {
     background-color: rgba(0, 0, 0, 0.1); }
 
+.app-sidebar__toggle {
+  padding: 0 15px;
+  color: #fff;
+  line-height: 50px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; }
+  .app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-decoration: none; }
+  @media (max-width: 767px) {
+    .app-sidebar__toggle {
+      -webkit-box-ordinal-group: 0;
+              order: -1; } }
+
+.app-sidebar__toggle > span {
+  display: inline-block;
+  padding: 15px; }
+
 .app-sidebar {
   position: fixed;
   top: 0;
