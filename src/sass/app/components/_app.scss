@@ -5,6 +5,7 @@
   padding: 30px;
   background-color: #e5e5e5;
   margin-left: 230px; // This is because .app-sidebar has width of 230px
+  transition: margin-left 0.3s ease;
 
   // Actually surprise the @media query is set in here as it's usually at the end of the main.scss
   // 767px is the standard tablet size.

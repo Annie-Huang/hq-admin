@@ -12122,7 +12122,9 @@ readers do not read off random characters that represent icons */
   margin-top: 50px;
   padding: 30px;
   background-color: #e5e5e5;
-  margin-left: 230px; }
+  margin-left: 230px;
+  -webkit-transition: margin-left 0.3s ease;
+  transition: margin-left 0.3s ease; }
   @media (max-width: 767px) {
     .app-content {
       margin-left: 0; } }
@@ -12216,7 +12218,9 @@ readers do not read off random characters that represent icons */
   overflow: auto;
   z-index: 10;
   background-color: #2a4f69;
-  box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 8px 17px rgba(0, 0, 0, 0.2);
+  -webkit-transition: left 0.3s ease;
+  transition: left 0.3s ease; }
   @media (max-width: 767px) {
     .app-sidebar {
       left: -230px; } }

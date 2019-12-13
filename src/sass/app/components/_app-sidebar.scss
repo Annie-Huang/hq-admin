@@ -9,6 +9,10 @@
   z-index: 10;
   background-color: $sidebar-color;
   box-shadow: 0 8px 17px rgba(0,0,0,.2);
+  // Didn't know I can add multiple transition properties like this. good one.
+  // But you don't really need the width property as width didn't change in media query.
+  //transition: left 0.3s ease, width 0.3s ease;
+  transition: left 0.3s ease;
 
   @media (max-width: 767px) {
     left: -230px;
